@@ -1,0 +1,55 @@
+<img src="amz.jpg" alt="leech" align="left" width="128px">
+
+## AMZ-LEECH: Amazon rewards account creator
+
+AMZ-lEECH its a script designed to automate the creation of amz accounts and take adventage of amazon affiliates program.
+
+* [Wedding Form](http://www.amazon.es/wedding?tag=) give you **3.5 Euros €*
+* [Baby Form](http://www.amazon.es/baby-reg/homepage?tag=)  gives **you 1.5€**
+
+A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process
+
+```
+git clone https://TOKEN@github.com/blueudp/amz-leech.git
+pip install -r requirements.txt
+install firefox 78.11.0esr" (64-bit)
+install geckodriver (mv deps/geckodriver /usr/bin)
+python3 leech.py REF_CODE country
+
+```
+
+# How to
+
+Run the script and wait until the program prints ("Send form and continue>"), then wait until leech.py prints ("Captcha> "), this time do not send form! otherwise program wont find send button so it will crash
+
+# SMS Man
+
+AMZ-leech use sms-man.com API services, countries are written in *deps/phones.txt*, following this structure
+
+```
+country,smsmanAPIcountryID,AmzCountryIDFromDesplegableList
+portugal,263,166
+francia,155,69
+alemania,123,2
+grecia,222,76
+irlanda,106,93
+italia,163,108
+uk,100,170
+españa,155,61
+
+```
+# CONFIG
+API=SMS_MAN_API_KERE
+Proxy=False
+
+# Proxy
+If you want to use proxy in amz browser set proxy=True in CONFIG and add proxys in this format "IP:PORT\n" to *deps/proxy.txt*
+
+# Other features
+
+1. random screen size
+2. random ua
+3. random proxy
+4. auto fill every form
+5. If API return no number try another country
+6. select phone country
