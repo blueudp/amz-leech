@@ -458,17 +458,18 @@ class CreateAccount:
 			pass
 
 		# --------------
-
-		self.interact(By.XPATH, '/html/body/div[1]/div[2]/div/div[2]/div[9]/div[1]/div[2]/div/span[1]/span/span', 1, 1, self.browser)
+		
+		self.interact(By.ID, 'a-autoid-7-announce', 1, 1, self.browser)
 
 		self.interact(By.ID, "wr-cm-event-date-month_" + str(randint(0,11)), 1, 1, self.browser)
 
 
-		self.interact(By.XPATH, "/html/body/div[1]/div[2]/div/div[2]/div[9]/div[1]/div[2]/div/span[2]/span/span", 1, 1, self.browser)
+		self.interact(By.ID, "a-autoid-8-announce", 1, 1, self.browser)
 		self.interact(By.ID, "wr-cm-event-date-day_" + str(randint(0,29)), 1, 1, self.browser)
 
-		self.interact(By.XPATH, "/html/body/div[1]/div[2]/div/div[2]/div[9]/div[1]/div[2]/div/span[3]/span/span", 1, 1, self.browser)
+		self.interact(By.ID, "a-autoid-9-announce", 1, 1, self.browser)
 		self.interact(By.ID, "wr-cm-event-date-year_" + str(randint(0,19)), 1, 1, self.browser)
 
 		self.interact(By.XPATH, self.city, city, 0, self.browser)
 		self.interact(By.XPATH, self.number, randint(50,1000), 0, self.browser)
+
