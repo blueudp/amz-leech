@@ -46,7 +46,8 @@ Proxy=False
 
 # Proxy
 If you want to use proxy in amz browser set **proxy=True** in CONFIG
-Then add proxys in this format `IP:PORT\` to **deps/proxy.txt**
+
+Then add proxys in this format `IP:PORT` to **deps/proxy.txt**
 
 # Other features
 
