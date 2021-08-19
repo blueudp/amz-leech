@@ -4,7 +4,7 @@
 
 AMZ-LEECH its a script designed to automate the creation of amz accounts and take adventage of [amazon affiliates program](https://afiliados.amazon.es/).
 
-* [Wedding Form](http://www.amazon.es/wedding?tag=) gives you **3.5 Euros €**
+* [Wedding Form](http://www.amazon.es/wedding?tag=) gives you **3.5 €**
 * [Baby Form](http://www.amazon.es/baby-reg/homepage?tag=)  gives **you 1.5€**
 
 A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process
