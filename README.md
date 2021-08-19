@@ -12,7 +12,7 @@ A close friend noticed that by having the right services to receive temporary [S
 ```
 git clone https://TOKEN@github.com/blueudp/amz-leech.git
 pip install -r requirements.txt
-install firefox 78.11.0esr" (64-bit)
+install "**firefox 78.11.0esr**" (64-bit)
 install geckodriver (mv deps/geckodriver /usr/bin)
 python3 leech.py REF_CODE country
 
