@@ -5,4 +5,4 @@ grecia,222,76
 irlanda,106,93
 italia,163,108
 uk,100,170
-españa,155,61
+españa,135,61
