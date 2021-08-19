@@ -1,4 +1,4 @@
-<img src="amz.jpg" alt="leech" align="center">
+<img src="amz.jpg" alt="leech" width="500" height="500">
 
 ## AMZ-LEECH: Amazon rewards account creator
 
