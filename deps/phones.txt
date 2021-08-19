@@ -1,0 +1,8 @@
+portugal,263,166
+francia,155,69
+alemania,123,2
+grecia,222,76
+irlanda,106,93
+italia,163,108
+uk,100,170
+españa,155,61
