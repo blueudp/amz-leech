@@ -2,9 +2,9 @@
 
 ## AMZ-LEECH: Amazon rewards account creator
 
-AMZ-lEECH its a script designed to automate the creation of amz accounts and take adventage of amazon affiliates program.
+AMZ-LEECH its a script designed to automate the creation of amz accounts and take adventage of [amazon affiliates program](https://afiliados.amazon.es/).
 
-* [Wedding Form](http://www.amazon.es/wedding?tag=) give you **3.5 Euros €*
+* [Wedding Form](http://www.amazon.es/wedding?tag=) gives you **3.5 Euros €**
 * [Baby Form](http://www.amazon.es/baby-reg/homepage?tag=)  gives **you 1.5€**
 
 A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process
@@ -20,11 +20,12 @@ python3 leech.py REF_CODE country
 
 # How to
 
-Run the script and wait until the program prints ("Send form and continue>"), then wait until leech.py prints ("Captcha> "), this time do not send form! otherwise program wont find send button so it will crash
+Run the script and wait until the program prints `Send form and continue>`, then wait until leech.py prints `Captcha>`, this time do not send form!
+Otherwise program wont find send button so it will crash
 
 # SMS Man
 
-AMZ-leech use sms-man.com API services, countries are written in *deps/phones.txt*, following this structure
+AMZ-leech use sms-man.com API services, countries are written in **deps/phones.txt**, following this structure
 
 ```
 country,smsmanAPIcountryID,AmzCountryIDFromDesplegableList
@@ -40,10 +41,12 @@ españa,155,61
 ```
 # CONFIG
 API=SMS_MAN_API_KERE
+
 Proxy=False
 
 # Proxy
-If you want to use proxy in amz browser set proxy=True in CONFIG and add proxys in this format "IP:PORT\n" to *deps/proxy.txt*
+If you want to use proxy in amz browser set **proxy=True** in CONFIG
+Then add proxys in this format `IP:PORT\` to **deps/proxy.txt**
 
 # Other features
 
