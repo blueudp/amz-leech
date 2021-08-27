@@ -175,6 +175,10 @@ class CreateAccount:
 		self.interact(By.XPATH, self.check_passwd, passwd, 0, self.browser)
 
 		self.interact(By.XPATH, self._create_acc, 1, 1, self.browser)
+		if "Ha indicado que es un nuevo cliente," in self.browser.page_source:
+			self.browser.close()
+			print("\033[1;32;40m[*] Name already used, trying another one\033[0m")
+			return 0
 		return self.listener_mail(tempmail)
 
 	def send_code(self, code):
@@ -248,8 +252,7 @@ class CreateAccount:
 			try:
 				self.interact(By.ID, 'refresh', 1, 1, self.mailweb)
 			except:
-				sleep(2)
-				self.interact(By.ID, 'refresh', 1, 1, self.mailweb)
+				pass
 
 
 		self.interact(By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/table/tbody/tr[2]/td[2]', 1, 1, self.mailweb)

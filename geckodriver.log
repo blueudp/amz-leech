@@ -1,0 +1,79 @@
+1630021876039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY2MHdi"
+1630021877647	Marionette	INFO	Listening on port 34431
+1630021877746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630021880768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6fxled"
+*** You are running in headless mode.
+1630021882385	Marionette	INFO	Listening on port 44567
+1630021882473	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 7050 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 7050 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1630021892815	Marionette	INFO	Stopped listening on port 44567
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61XKxrBtDVL.js?AUIClients/AmazonUIjQuery, line 39: unreachable code after return statement
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61XKxrBtDVL.js?AUIClients/AmazonUIjQuery, line 47: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/013gBwZ4ALL._RC|018rVkUcqaL.js,11DmY9O+MbL.js_.js?AUIClients/BabyRegistryAUIAssets-homepage#desktop, line 9: TypeError: b(...).offset() is null
+1630021948355	Marionette	INFO	Stopped listening on port 34431
+1630021951898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSQppZI"
+1630021953493	Marionette	INFO	Listening on port 42519
+1630021953504	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630021954925	Marionette	INFO	Stopped listening on port 42519
+1630021957523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLpViQD"
+1630021959203	Marionette	INFO	Listening on port 43789
+1630021959228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630021961983	Marionette	INFO	Stopped listening on port 43789
+1630022413328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9aT5VR"
+1630022414895	Marionette	INFO	Listening on port 40957
+1630022414941	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630022417937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenCsTrU"
+*** You are running in headless mode.
+1630022419405	Marionette	INFO	Listening on port 41917
+1630022419450	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630022435528	Marionette	INFO	Stopped listening on port 41917
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 631 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 631 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630022459953	Marionette	INFO	Stopped listening on port 40957
+1630022462112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen0J80K"
+1630022463746	Marionette	INFO	Listening on port 45307
+1630022463818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630022465327	Marionette	INFO	Stopped listening on port 45307
+1630022468898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqfbTdc"
+1630022470485	Marionette	INFO	Listening on port 36279
+1630022470510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1630022473733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDnviw3"
+*** You are running in headless mode.
+1630022475417	Marionette	INFO	Listening on port 45675
+1630022475439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 4062 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/JSi02Q6GJynUs5OPQnU6ClbAiSGuMk75N6kjZ1kLosw.js line 1 > eval line 4062 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1630022498291	Marionette	INFO	Stopped listening on port 45675
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630022503553	Marionette	INFO	Stopped listening on port 36279

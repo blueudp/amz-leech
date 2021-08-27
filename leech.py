@@ -16,7 +16,10 @@ class GetRewards:
 
 		passw = acc.generate_pass(randint(8,12))  # generate random pass
 
-		sms_code = acc.login(name, passw, name.replace(" ", "")+"@byom.de")  # send name, passwd and name+mail ( to temp mailer )
+		sms_code = acc.login(name, passw, name.replace(" ", "")	+"@byom.de")  # send name, passwd and name+mail ( to temp mailer )
+
+		if not sms_code:
+			return 0
 
 		acc.sms_check(sms_code)  # send mail and get code
 
