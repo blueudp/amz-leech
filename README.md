@@ -65,5 +65,5 @@ Then add proxys in this format `IP:PORT` to **deps/proxy.txt**
 2. random ua
 3. random proxy
 4. auto fill every form
-5. If API return no number try another country
+5. If API returns no number try another country
 6. select phone country
