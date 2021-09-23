@@ -2,6 +2,9 @@
 
 ## AMZ-LEECH: Amazon rewards account creator
 
+[!] JUST A PoC!!!! YOU WILL GET BANNED!!!!!!!
+[!] JUST A PoC!!!! YOU WILL GET BANNED!!!!!!!
+
 AMZ-LEECH its a script designed to automate the creation of amz accounts and take adventage of [amazon affiliates program](https://afiliados.amazon.es/).
 
 * [Wedding Form](http://www.amazon.es/wedding?tag=) gives you **3.5 €**
