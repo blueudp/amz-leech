@@ -14,7 +14,7 @@ AMZ-LEECH its a script designed to automate the creation of amz accounts and tak
 A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process
 
 ```
-git clone https://TOKEN@github.com/blueudp/amz-leech.git
+git clone https://github.com/blueudp/amz-leech.git
 pip install -r requirements.txt
 install "firefox 78.11.0esr" (64-bit)
 install geckodriver (mv deps/geckodriver /usr/bin)
