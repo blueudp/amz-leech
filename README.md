@@ -26,13 +26,6 @@ python3 leech.py REF_CODE country
 Run the script and wait until the program prints `Send form and continue>`, then wait until leech.py prints `Captcha>`, this time do not send form!
 Otherwise program wont find send button so it will crash
 
-# PoC 5 € in 1 minute
-
-
-
-https://user-images.githubusercontent.com/41192980/130110078-26d98c6e-9a00-4bbb-9182-4f1d6f840fad.mp4
-
-
 
 # SMS Man
 
