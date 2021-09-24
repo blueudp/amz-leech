@@ -11,7 +11,7 @@ AMZ-LEECH its a script designed to automate the creation of amz accounts and tak
 * [Baby Form](http://www.amazon.es/baby-reg/homepage?tag=)  gives you **1.5€**
 * [Admin pannel](https://afiliados.amazon.es/)
 
-A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process
+A close friend noticed that by having the right services to receive temporary [SMS](https://sms-man.com) and [mails](https://www.byom.de), amazon accounts could be created with high frequency, so I decided to automate that process. You can have any ammount of money you want, but just a PoC, ALL accounts will be banned and even more if this tool is public, ( which is it )
 
 ```
 git clone https://github.com/blueudp/amz-leech.git
